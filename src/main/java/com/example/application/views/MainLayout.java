@@ -29,6 +29,7 @@ import com.example.application.views.helloworld.HelloWorldView;
 import com.example.application.views.about.AboutView;
 import com.example.application.views.imagelist.ImageListView;
 import com.example.application.views.checkoutform.CheckoutFormView;
+import com.example.application.views.ry.RyView;
 import com.vaadin.flow.server.PWA;
 import com.vaadin.flow.theme.Theme;
 import com.vaadin.flow.component.avatar.Avatar;
@@ -102,6 +103,8 @@ public class MainLayout extends AppLayout {
                 new MenuItemInfo("Image List", "la la-th-list", ImageListView.class), //
 
                 new MenuItemInfo("Checkout Form", "", CheckoutFormView.class), //
+                
+                new MenuItemInfo("RY", "la la-file", RyView.class)
 
         };
         List<RouterLink> links = new ArrayList<>();
